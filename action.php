@@ -23,24 +23,6 @@ class action_plugin_structinputstretch extends DokuWiki_Action_Plugin
      */
     public function register(Doku_Event_Handler $controller)
     {
-        $controller->register_hook('DOKUWIKI_STARTED', 'FIXME', $this, 'handle_dokuwiki_started');
-   
     }
-
-    /**
-     * [Custom event handler which performs action]
-     *
-     * Called for event:
-     *
-     * @param Doku_Event $event  event object by reference
-     * @param mixed      $param  [the parameters passed as fifth argument to register_hook() when this
-     *                           handler was registered]
-     *
-     * @return void
-     */
-    public function handle_dokuwiki_started(Doku_Event $event, $param)
-    {
-    }
-
 }
 
