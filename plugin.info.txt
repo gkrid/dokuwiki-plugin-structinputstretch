@@ -1,0 +1,7 @@
+base   structinputstretch
+author Szymon Olewniczak
+email  it@rid.pl
+date   2019-05-30
+name   structinputstretch plugin
+desc   Automatically stretch struct input fields when content grows.
+url    https://www.dokuwiki.org/plugin:structinputstretch
